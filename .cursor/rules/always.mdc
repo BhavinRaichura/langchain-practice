@@ -1,0 +1,11 @@
+---
+description: Project context and defaults for langchain-practice
+alwaysApply: true
+---
+
+# langchain-practice
+
+- **Stack**: Python, Jupyter notebooks, LangChain (langchain-core, langchain-google-genai, langchain-ollama, etc.).
+- **Secrets**: Use `python-dotenv` and `load_dotenv()`; keep API keys in `.env` (never commit secrets).
+- **Notebooks**: Prefer clear cell boundaries; use `.venv` or `venv` for dependencies.
+- **Editing**: Prefer editing existing files over creating new ones unless the user asks for new files.
